@@ -1,30 +1,37 @@
-﻿# [STM8S20](https://github.com/sochub/STM8S20)
-[![sites](SoC/SoC.png)](http://www.qitas.cn) 
-####  qitas@qitas.cn
-#### 父级：[STM8S](https://github.com/sochub/STM8S) 
-#### 近似：[MCS-51](https://github.com/sochub/MCS-51)
+﻿# [STM8S208C6](https://github.com/SoCXin/STM8S208C6)
 
-## [描述](https://github.com/sochub/STM8S20/wiki) 
+[![sites](http://182.61.61.133/link/resources/SoC.png)](http://SoC.Xin)
 
-24 MHz主频，包括外设：UART, SPI, I²C等接口, 10-bit ADC, internal and external clock control system, watchdogs, auto wake-up unit
+#### [Vendor](https://github.com/SoCXin/Vendor)：[ST](https://github.com/SoCXin/ST)
+#### [Core](https://github.com/SoCXin/STM8)：[STM8](https://github.com/SoCXin/STM8)
+#### [Level](https://github.com/SoCXin/Level)：24 MHz (20 MIPS)
 
-Additional features such as a CAN interface and a second UART are available.
+## [STM8S208描述](https://github.com/SoCXin/STM8S208/wiki)
 
-STM8S207/208 封装包括32-80 pin，这也是这个系列最大的特点，可用于大量IO控制的低端设备中。
+[STM8S208C6](https://github.com/SoCXin/STM8S208C6) 基于意法半导体的专有24 MHz内核，具有与基本型相同的标准特性：全套定时器、通信接口（UART、SPI、I2C）、10位ADC、内部和外部时钟控制系统、看门狗、自动唤醒单元和集成式单线调试模块。它还提供其它特性，例如CAN接口和另一个UART。
 
-[![sites](SoC/STM8S20.png)](https://www.st.com/en/microcontrollers-microprocessors/stm8s207-208.html) 
+* Internal 16 MHz RC
+* Internal 28 kHz RC
+* 32KB Flash    (10 kcycles)
+* 2 KB EEPROM   (300 kcycles)
+* 6 KB RAM
+* 1 Mbit/s active beCAN 2.0B
+* 2.95 V - 5.5 V
+* LQFP48
 
-### [资源收录](https://github.com/sochub/STM8S20)
+### [收录资源](https://github.com/SoCXin/STM8S208)
 
-- [文档](docs/)
-- [资源](src/)
-- [工程](project/)
+* [文档](docs/)
+* [资源](src/)
+* [工程](project/)
 
-### [替代方案](https://github.com/sochub/STM8S20)
+#### [开发工具](https://github.com/SoCXin)
 
-- [STM32F0](https://github.com/sochub/STM32F0) 
-- [CH56](https://github.com/sochub/CH56) 
+* [STM8CubeMX](https://www.st.com/zh/development-tools/stm8cubemx.html)
+* [SDCC编译器](http://sdcc.sourceforge.net/)
 
+### [选型建议](https://github.com/SoCXin)
 
-##  [SoC开发平台](http://www.qitas.cn)  
+[STM8S208C6](https://github.com/SoCXin/STM8S208C6)
 
+###  [SoC芯平台](http://SoC.Xin)
