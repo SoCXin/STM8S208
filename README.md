@@ -1,4 +1,4 @@
-﻿# [STM8S208C6](https://github.com/SoCXin/STM8S208C6)
+﻿# [STM8S208](https://github.com/SoCXin/STM8S208)
 
 [![sites](http://182.61.61.133/link/resources/SoC.png)](http://SoC.Xin)
 
@@ -8,7 +8,7 @@
 
 ## [STM8S208描述](https://github.com/SoCXin/STM8S208/wiki)
 
-[STM8S208C6](https://github.com/SoCXin/STM8S208C6) 基于意法半导体的专有24 MHz内核，具有与基本型相同的标准特性：全套定时器、通信接口（UART、SPI、I2C）、10位ADC、内部和外部时钟控制系统、看门狗、自动唤醒单元和集成式单线调试模块。它还提供其它特性，例如CAN接口和另一个UART。
+[STM8S208](https://github.com/SoCXin/STM8S208) 基于意法半导体的专有24 MHz内核，具有与基本型相同的标准特性：全套定时器、通信接口（UART、SPI、I2C）、10位ADC、内部和外部时钟控制系统、看门狗、自动唤醒单元和集成式单线调试模块。它还提供其它特性，例如CAN接口和另一个UART。
 
 * Internal 16 MHz RC
 * Internal 28 kHz RC
@@ -17,7 +17,7 @@
 * 6 KB RAM
 * 1 Mbit/s active beCAN 2.0B
 * 2.95 V - 5.5 V
-* LQFP48
+* LQFP32/LQFP44/LQFP48/LQFP64/LQFP80
 
 ### [收录资源](https://github.com/SoCXin/STM8S208)
 
@@ -32,6 +32,6 @@
 
 ### [选型建议](https://github.com/SoCXin)
 
-[STM8S208C6](https://github.com/SoCXin/STM8S208C6)
+[STM8S208](https://github.com/SoCXin/STM8S208)
 
 ###  [SoC芯平台](http://SoC.Xin)
